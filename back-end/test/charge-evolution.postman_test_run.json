@@ -1,0 +1,480 @@
+{
+	"id": "4ed01307-98fb-4d68-9db6-100f669f9bf1",
+	"name": "charge-evolution",
+	"timestamp": "2021-03-14T22:42:45.721Z",
+	"collection_id": "674b76fc-77d6-4b1a-845f-46675ba866d3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 44,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9e116b90-253b-4191-a998-80ae67d00d0a",
+			"name": "http://127.0.0.1:5000/api/users/charge/1",
+			"time": 43,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful Charging": true
+			},
+			"testPassFailCounts": {
+				"Successful Charging": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				28,
+				25,
+				25,
+				43
+			],
+			"allTests": [
+				{
+					"Successful Charging": true
+				},
+				{
+					"Successful Charging": true
+				},
+				{
+					"Successful Charging": true
+				},
+				{
+					"Successful Charging": true
+				}
+			]
+		},
+		{
+			"id": "0274dafe-aeb3-49fa-b4fc-809e57f9b7ea",
+			"name": "http://127.0.0.1:5000/api/admin/system/deletestation/00081CA9-8844-458B-B6E5-13DAB2AB60DD",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful Delete Station": true
+			},
+			"testPassFailCounts": {
+				"Successful Delete Station": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				17,
+				14,
+				19,
+				19
+			],
+			"allTests": [
+				{
+					"Successful Delete Station": true
+				},
+				{
+					"Successful Delete Station": true
+				},
+				{
+					"Successful Delete Station": true
+				},
+				{
+					"Successful Delete Station": true
+				}
+			]
+		},
+		{
+			"id": "dad332f1-c4dc-4aa7-8fbe-066b98b63e3c",
+			"name": "http://127.0.0.1:5000/api/users/payment/1",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful payment": true
+			},
+			"testPassFailCounts": {
+				"Successful payment": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				23,
+				26,
+				27,
+				24
+			],
+			"allTests": [
+				{
+					"Successful payment": true
+				},
+				{
+					"Successful payment": true
+				},
+				{
+					"Successful payment": true
+				},
+				{
+					"Successful payment": true
+				}
+			]
+		},
+		{
+			"id": "9fef0c0a-9822-450e-8145-76e760c5d3e1",
+			"name": "http://127.0.0.1:5000/api/users/login",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful Login": true
+			},
+			"testPassFailCounts": {
+				"Successful Login": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				13,
+				14,
+				17,
+				14
+			],
+			"allTests": [
+				{
+					"Successful Login": true
+				},
+				{
+					"Successful Login": true
+				},
+				{
+					"Successful Login": true
+				},
+				{
+					"Successful Login": true
+				}
+			]
+		},
+		{
+			"id": "0b4f1703-1d22-4585-8ffb-de7269ffd354",
+			"name": "Unsuccessful login",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Unsuccessful Login": true
+			},
+			"testPassFailCounts": {
+				"Unsuccessful Login": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				14,
+				17,
+				16,
+				17
+			],
+			"allTests": [
+				{
+					"Unsuccessful Login": true
+				},
+				{
+					"Unsuccessful Login": true
+				},
+				{
+					"Unsuccessful Login": true
+				},
+				{
+					"Unsuccessful Login": true
+				}
+			]
+		},
+		{
+			"id": "d08ec613-c163-4abc-8c00-6d28642fd83c",
+			"name": "http://127.0.0.1:5000/api/users/charge/1",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful Charging": true
+			},
+			"testPassFailCounts": {
+				"Successful Charging": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				19,
+				23,
+				23,
+				22
+			],
+			"allTests": [
+				{
+					"Successful Charging": true
+				},
+				{
+					"Successful Charging": true
+				},
+				{
+					"Successful Charging": true
+				},
+				{
+					"Successful Charging": true
+				}
+			]
+		},
+		{
+			"id": "57d744cc-c6ab-4495-83b4-06ae3631811d",
+			"name": "http://127.0.0.1:5000/api/users/vehicles/1",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful vehicle fetch": true
+			},
+			"testPassFailCounts": {
+				"Successful vehicle fetch": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				20,
+				19,
+				18,
+				17
+			],
+			"allTests": [
+				{
+					"Successful vehicle fetch": true
+				},
+				{
+					"Successful vehicle fetch": true
+				},
+				{
+					"Successful vehicle fetch": true
+				},
+				{
+					"Successful vehicle fetch": true
+				}
+			]
+		},
+		{
+			"id": "b73f531a-efaf-4075-9813-baf219376830",
+			"name": "SessionsperSTATION",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful sessionsperstation": true
+			},
+			"testPassFailCounts": {
+				"Successful sessionsperstation": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				12,
+				12,
+				11,
+				14
+			],
+			"allTests": [
+				{
+					"Successful sessionsperstation": true
+				},
+				{
+					"Successful sessionsperstation": true
+				},
+				{
+					"Successful sessionsperstation": true
+				},
+				{
+					"Successful sessionsperstation": true
+				}
+			]
+		},
+		{
+			"id": "00306eb8-7c0e-491b-9229-83bee34edfdd",
+			"name": "sessionsperPROVIDER",
+			"time": 349,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful sessionsperprovider": true
+			},
+			"testPassFailCounts": {
+				"Successful sessionsperprovider": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				500,
+				188,
+				296,
+				349
+			],
+			"allTests": [
+				{
+					"Successful sessionsperprovider": true
+				},
+				{
+					"Successful sessionsperprovider": true
+				},
+				{
+					"Successful sessionsperprovider": true
+				},
+				{
+					"Successful sessionsperprovider": true
+				}
+			]
+		},
+		{
+			"id": "33ed1fdb-4d6b-4d13-96f6-051dd55fa96c",
+			"name": "sessionsperPOINT4",
+			"time": 41,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful sessionsperpoint": true
+			},
+			"testPassFailCounts": {
+				"Successful sessionsperpoint": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				55,
+				93,
+				35,
+				41
+			],
+			"allTests": [
+				{
+					"Successful sessionsperpoint": true
+				},
+				{
+					"Successful sessionsperpoint": true
+				},
+				{
+					"Successful sessionsperpoint": true
+				},
+				{
+					"Successful sessionsperpoint": true
+				}
+			]
+		},
+		{
+			"id": "c18a1346-ca57-47d6-808a-064918c42711",
+			"name": "sessionsperEV (ABG-156-116-227/2011-10-10/2020-10-10)",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful sessionsperEV": true
+			},
+			"testPassFailCounts": {
+				"Successful sessionsperEV": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				28,
+				85,
+				27,
+				36
+			],
+			"allTests": [
+				{
+					"Successful sessionsperEV": true
+				},
+				{
+					"Successful sessionsperEV": true
+				},
+				{
+					"Successful sessionsperEV": true
+				},
+				{
+					"Successful sessionsperEV": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 2355,
+	"collection": {
+		"requests": [
+			{
+				"id": "9e116b90-253b-4191-a998-80ae67d00d0a",
+				"method": "POST"
+			},
+			{
+				"id": "0274dafe-aeb3-49fa-b4fc-809e57f9b7ea",
+				"method": "POST"
+			},
+			{
+				"id": "dad332f1-c4dc-4aa7-8fbe-066b98b63e3c",
+				"method": "POST"
+			},
+			{
+				"id": "9fef0c0a-9822-450e-8145-76e760c5d3e1",
+				"method": "POST"
+			},
+			{
+				"id": "0b4f1703-1d22-4585-8ffb-de7269ffd354",
+				"method": "POST"
+			},
+			{
+				"id": "d08ec613-c163-4abc-8c00-6d28642fd83c",
+				"method": "POST"
+			},
+			{
+				"id": "57d744cc-c6ab-4495-83b4-06ae3631811d",
+				"method": "GET"
+			},
+			{
+				"id": "b73f531a-efaf-4075-9813-baf219376830",
+				"method": "GET"
+			},
+			{
+				"id": "00306eb8-7c0e-491b-9229-83bee34edfdd",
+				"method": "GET"
+			},
+			{
+				"id": "33ed1fdb-4d6b-4d13-96f6-051dd55fa96c",
+				"method": "GET"
+			},
+			{
+				"id": "c18a1346-ca57-47d6-808a-064918c42711",
+				"method": "GET"
+			}
+		]
+	}
+}

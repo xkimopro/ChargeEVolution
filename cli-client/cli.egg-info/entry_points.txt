@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ev_group54=cli:cli
+    
